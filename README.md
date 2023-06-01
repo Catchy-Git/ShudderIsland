@@ -3,8 +3,8 @@
 To start the game you want to open the menu scene and press play from there.
 
 the controls are 
-Movement - WASD
-Interact - E
+Movement - WASD,
+Interact - E,
 Buttons - Mouse Click
 
 ===========================================================================
