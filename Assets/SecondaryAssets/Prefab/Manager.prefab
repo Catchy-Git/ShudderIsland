@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6136008525244095592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6136008525244095591}
+  - component: {fileID: 6136008525244095590}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6136008525244095591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6136008525244095592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 709.66656, y: 102.799286, z: 1060.385}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6136008525244095590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6136008525244095592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047c05b05362ed245aae88b6cdeea605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  player: {fileID: 0}
+  playerSlider: {fileID: 0}
+  CurrentPosition: {x: 0, y: 0, z: 0}
+  LastHeroPosition: {x: 0, y: 0, z: 0}
+  enemyPatrol: {fileID: 0}
+  TeleportGoalEnemy: {fileID: 0}
+  ZombieAlive: 0
+  MonsterAlive: 0
+  GhoulAlive: 0
+  HunterAlive: 0
+  HoodedAlive: 0
+  SharpShooterAlive: 0
+  abilityCounter: 0
+  battleHud: {fileID: 0}
+  newEnemy: {fileID: 0}
+  playerDMG: 5
+  abilityDMG: 0
+  enemyDMG: 5
+  AbilityButton: {fileID: 0}
+  AttackButton: {fileID: 0}
+  gameStates: 0
+  battleStates: 0
