@@ -7,6 +7,9 @@ Movement - WASD,
 Interact - E,                                                                            
 Buttons - Mouse Click
 
-=========================================================================================
+==================================================================================
 This was a college project i never finished it was a resident evil style turn based game.
 there is four levels total.
+
+==================================================================================
+Unity Project Shudder Island Ver. 2020.1.2f1
